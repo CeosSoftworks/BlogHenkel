@@ -1,0 +1,7 @@
+SELECT
+	`entry_id`
+FROM
+	`{PLUGIN_PREFIX}entries`
+WHERE
+	1 = 1
+	{OPT_CONDITIONS}

@@ -1,0 +1,4 @@
+SELECT SQL_CALC_FOUND_ROWS
+	`lang_id`
+FROM
+	`{PLUGIN_PREFIX}langs`
