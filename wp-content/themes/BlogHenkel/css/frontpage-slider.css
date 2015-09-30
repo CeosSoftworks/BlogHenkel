@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#frontpage-posts-slider .post {
+	background-color: #F5F5F5;
+	border: none;
+  height: 100%;
+}
+#frontpage-posts-slider .post { height: 90%; font-size: 1.4em }
+#frontpage-posts-slider .post-wrap { height: 100% }
+#frontpage-posts-slider .post-wrap > a { color: #848688;	opacity: .9 }
+#frontpage-posts-slider .post-wrap > a:hover { opacity: 1 }
+#frontpage-posts-slider .post-wrap > a:hover .post-title { color: #ED3237 }
+#frontpage-posts-slider .post-cat { height: 10%; margin: 0 }
+#frontpage-posts-slider .jumplink-wrap { position: absolute; right: 0; bottom: 0 }

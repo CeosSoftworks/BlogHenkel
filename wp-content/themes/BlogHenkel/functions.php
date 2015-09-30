@@ -43,9 +43,16 @@ function enqueueScripts(){
 
 	wp_enqueue_style('bootstrap', "{$templateDir}/css/bootstrap.min.css");
 	wp_enqueue_style('main', "{$templateDir}/style.css");
+	wp_enqueue_style('base', "{$templateDir}/css/base.css");
 	wp_enqueue_style('header', "{$templateDir}/css/header.css");
+	wp_enqueue_style('home-top', "{$templateDir}/css/home-top.css");
+	wp_enqueue_style('slidesjs-custom', "{$templateDir}/css/slidesjs-custom.css");
+	wp_enqueue_style('frontpage-slider', "{$templateDir}/css/frontpage-slider.css");
+	wp_enqueue_style('sidebar', "{$templateDir}/css/sidebar.css");
 
 
+	wp_enqueue_script('jquery', "{$templateDir}/js/jquery-1.11.3.min.js");
+  wp_enqueue_script('jquery-slides', "{$templateDir}/js/jquery.slides.min.js");
 	wp_enqueue_script('bootstrap', "{$templateDir}/js/bootstrap.min.js");
 	wp_enqueue_script('main', "{$templateDir}/js/main.js");
 }
@@ -53,7 +60,9 @@ function enqueueScripts(){
 add_action('wp_enqueue_scripts', 'enqueueScripts');
 
 /**
- * Outros scripts
+ * Recupera o valor a ser utilizado como título da página sendo acessada,
+ * levando em consideração o título do site, sua descrição e o título da página
+ * sendo acessada no momento.
  */
 
 function getComposedSiteTitle($showDescription = true) {
@@ -70,3 +79,22 @@ function getComposedSiteTitle($showDescription = true) {
   
   return $retVal;
 }
+
+/**
+ * Retorna a URL da imagem de destaque do post especificado.
+ */
+
+function getPostFeaturedImageUrl($postId, $size = 'full') {
+  $url = wp_get_attachment_image_src(get_post_thumbnail_id($postId), $size);
+  return $url[0];
+}
+
+/**
+ * Altera o tamanho dos resumos gerados por the_excerpt()
+ */
+
+function excerptLength() {
+  return 16;
+}
+
+add_filter('excerpt_length', 'excerptLength');
