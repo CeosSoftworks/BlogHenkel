@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+#site-branding { padding-bottom: 15px; margin-bottom: 15px;	border-bottom: 2px solid #CCC; }
+
 #sidebar-content ul,
 #sidebar-content .categories { list-style: none; padding: 0; }
 #sidebar-content .categories { font-size: 1.6em }
