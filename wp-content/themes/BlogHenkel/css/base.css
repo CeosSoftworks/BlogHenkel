@@ -118,7 +118,7 @@ a:active { color: #003cb3; text-decoration: underline }
 .post-resume-link:hover .post .post-header-img { opacity: 1; background-color: #ED3237 }
 .post-resume-link:hover .post .post-title { color: #ED3237 }
 
-.post.mini { background-color: #F5F5F5; margin: 0 }
+.post.mini { background-color: #F5F5F5; margin: 0; height: 110px }
 .post.mini::not(::last-of-type) { border-bottom: none }
 .post.mini .post-title { font-size: 1em }
 .post.mini .post-header-img { background-color: #D2D3D5; background-size: auto 80% }
