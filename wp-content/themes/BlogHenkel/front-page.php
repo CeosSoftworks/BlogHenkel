@@ -1,22 +1,22 @@
 <?php get_header() ?>
 
 <section id="home-top" class="container-fluid">
-  <?php get_template_part('php/loop', 'frontpage-top') ?>
+  <div class="inner padding-y-0 padding-x-10px"><?php get_template_part('php/loop', 'frontpage-top') ?></div>
 </section>
 
 <section id="home-slider-wrap" class="container-fluid">
-  <?php get_template_part('php/loop', 'frontpage-slider') ?>
+  <div class="inner padding-y-0 padding-x-10px"><?php get_template_part('php/loop', 'frontpage-slider') ?></div>
 </section>
 
 <section id="home-body" class="container-fluid">
   <div class="col-md-5">
-    <?php get_template_part('php/loop', 'frontpage') ?>
+    <div class="inner padding-y-0 padding-x-10px"><?php get_template_part('php/loop', 'frontpage') ?></div>
   </div>
   <div class="col-md-3">
-    <?php get_template_part('php/boxed-links') ?>
+    <div class="inner padding-y-0 padding-x-10px"><?php get_template_part('php/boxed-links') ?></div>
   </div>
   <div class="col-md-4">
-    Apoio
+    <div class="inner padding-y-0 padding-x-10px">Apoio</div>
   </div>
 </section>
 
