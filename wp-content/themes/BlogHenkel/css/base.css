@@ -154,5 +154,6 @@ a:active { color: #003cb3; text-decoration: underline }
 
 .post.mini { background-color: #F5F5F5; margin: 0; height: 110px }
 .post.mini::not(::last-of-type) { border-bottom: none }
-.post.mini .post-title { font-size: 1em }
-.post.mini .post-header-img { background-color: #D2D3D5; background-size: auto 80% }
+.post.mini .post-title { font-size: .9em }
+.post.mini .post-header-img { background-color: #D2D3D5; background-size: auto 70% }
+.post.mini .jumplink-wrap { position: absolute; bottom: 0; right: 0 }
