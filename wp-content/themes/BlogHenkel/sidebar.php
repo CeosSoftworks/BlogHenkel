@@ -28,6 +28,9 @@
           'hide_empty' => false,
           'walker' => new WalkerSidebar()
       )) ?>
+      <?php if(!is_front_page()) : ?>
+        <div class="aligncenter"><div class="inner"><img src="<?= get_template_directory_uri() ?>/imgs/clipart-support-henkel.png"></div></div>
+      <?php endif ?>
     </div>
   </div>
 </section>
