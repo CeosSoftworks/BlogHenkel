@@ -147,10 +147,12 @@ a:active { color: #003cb3; text-decoration: underline }
 }
 
 .post-resume-link { color: #848688 }
+.post-resume-link .post { height: 220px }
 .post-resume-link .post .post-header-img { opacity: .8 }
 .post-resume-link:hover { color: #606062 }
 .post-resume-link:hover .post .post-header-img { opacity: 1; background-color: #ED3237 }
 .post-resume-link:hover .post .post-title { color: #ED3237 }
+.post-resume-link .jumplink-wrap { position: absolute; bottom: 0; right: 0 }
 
 .post.mini { background-color: #F5F5F5; margin: 0; height: 110px }
 .post.mini::not(::last-of-type) { border-bottom: none }
@@ -183,3 +185,5 @@ a:active { color: #003cb3; text-decoration: underline }
   opacity: .4;
 }
 #site-search .search-submit:hover { opacity: 1 }
+
+#page-support { margin: 20px auto; width: 60% }
