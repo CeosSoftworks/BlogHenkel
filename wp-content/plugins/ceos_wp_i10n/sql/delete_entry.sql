@@ -1,1 +1,0 @@
-DELETE FROM `{PLUGIN_PREFIX}entries` WHERE `entry_id` = %d;
