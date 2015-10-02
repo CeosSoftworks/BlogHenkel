@@ -187,3 +187,5 @@ a:active { color: #003cb3; text-decoration: underline }
 #site-search .search-submit:hover { opacity: 1 }
 
 #page-support { margin: 20px auto; width: 60% }
+
+#site-social-links a:hover, #site-langs a:hover { opacity: .7 }
