@@ -1,4 +1,9 @@
 <?php
+/**
+ * Resumo de post, exibindo apenas o nome da categoria a qual o post pertence
+ * e o título da postagem.
+ */
+
 $categories = get_the_category();
 ?>
 <div class="post-mini-wrap col-sm-4">

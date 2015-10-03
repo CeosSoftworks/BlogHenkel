@@ -22,6 +22,14 @@ h1, h2, h3, h4, h5, h6 { color: #606062; }
 
 .inner { padding: 10px 20px; }
 
+.padding-0 { padding: 0 }
+.padding-5px { padding: 5px }
+.padding-10px { padding: 10px }
+.padding-15px { padding: 15px }
+.padding-20px { padding: 20px }
+.padding-25px { padding: 25px }
+.padding-30px { padding: 30px }
+
 .padding-y-0    { padding-top: 0; padding-bottom: 0 }
 .padding-y-5px  { padding-top: 5px; padding-bottom: 5px }
 .padding-y-10px { padding-top: 10px; padding-bottom: 10px }
@@ -63,6 +71,14 @@ h1, h2, h3, h4, h5, h6 { color: #606062; }
 .padding-bottom-15px  { padding-bottom: 15px }
 .padding-bottom-20px  { padding-bottom: 20px }
 .padding-bottom-25px  { padding-bottom: 25px }
+
+.margin-0 { margin: 0 }
+.margin-5px { margin: 5px }
+.margin-10px { margin: 10px }
+.margin-15px { margin: 15px }
+.margin-20px { margin: 20px }
+.margin-25px { margin: 25px }
+.margin-30px { margin: 30px }
 
 #site-wrap { max-width: 1280px; }
 

@@ -1,4 +1,8 @@
 <?php
+/**
+ * Resumo de post para uso geral. Não exibe a categoria a qual o post pertence.
+ */
+
 $categories = get_the_category();
 ?>
 <div class="post-wrap">

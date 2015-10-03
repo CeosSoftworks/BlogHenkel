@@ -1,7 +1,9 @@
 <?php get_header() ?>
 
 <section id="home-top" class="container-fluid">
-  <div class="inner padding-y-0 padding-x-10px"><?php get_template_part('php/loop', 'frontpage-top') ?></div>
+  <div id="frontpage-top-posts" class="page-top container-fluid padding-10px margin-10px">
+    <?php get_template_part('php/loop', 'frontpage-top') ?>
+  </div>
 </section>
 
 <section id="home-slider-wrap" class="container-fluid">

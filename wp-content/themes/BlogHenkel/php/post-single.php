@@ -1,3 +1,8 @@
+<?php
+/**
+ * Exibição padrão de postagens.
+ */
+?>
 <article id="post-<?php the_ID() ?>" <?php post_class() ?>>
   <header class="post-header">
     <div class="post-header-img" style="background-image: url(<?= getPostFeaturedImageUrl(get_the_ID()) ?>)"></div>

@@ -1,5 +1,14 @@
 <?php
-$psQuery = new WP_Query(array('posts_per_page' => 3));
+/**
+ * Exibição de post no slider da página inicial.
+ * 
+ * $psQuery armazena o query com os 3 primeiros posts a terem sido marcados como
+ * destaque pelo administrador do site.
+ * 
+ * Para o slide foi utilizado o script jquery.slides dentro da pasta js.
+ */
+
+$psQuery = new WP_Query(array('posts_per_page' => 3, 'featured' => true));
 ?>
 <div id="frontpage-posts-slider" class="posts-slider latest-posts">
   <div class="post-slider-treadmill-wrap">

@@ -1,6 +1,7 @@
 <?php
 /**
  * Loop de finalidade geral.
+ * NÃO FINALIZADO
  */
 
 if(have_posts()) {

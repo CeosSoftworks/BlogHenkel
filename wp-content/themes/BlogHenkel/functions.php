@@ -1,5 +1,7 @@
 <?php
 
+require_once('php/postviews.php');
+
 /**
  * Adiciona links para os feeds RSS no <head> de posts e comentários.
  */
@@ -45,7 +47,7 @@ function enqueueScripts(){
 	wp_enqueue_style('main', "{$templateDir}/style.css");
 	wp_enqueue_style('base', "{$templateDir}/css/base.css");
 	wp_enqueue_style('header', "{$templateDir}/css/header.css");
-	wp_enqueue_style('home-top', "{$templateDir}/css/home-top.css");
+	wp_enqueue_style('page-top', "{$templateDir}/css/page-top.css");
 	wp_enqueue_style('slidesjs-custom', "{$templateDir}/css/slidesjs-custom.css");
 	wp_enqueue_style('frontpage-slider', "{$templateDir}/css/frontpage-slider.css");
 	wp_enqueue_style('sidebar', "{$templateDir}/css/sidebar.css");

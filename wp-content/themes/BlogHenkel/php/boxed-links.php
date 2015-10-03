@@ -1,3 +1,9 @@
+<?php
+/**
+ * Exibição dos dois boxes com links para e-learning e formulário de solicitação
+ * técnica.
+ */
+?>
 <div>
   <a href="#" class="post-resume-link">
     <div class="post mini vertical-middle">

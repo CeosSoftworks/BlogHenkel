@@ -1,4 +1,9 @@
 <?php
+/**
+ * Exibição de post resumida, criada primariamente para uso pelo loop
+ * de slider na página inicial do website.
+ */
+
 $categories = get_the_category();
 ?>
 <div class="post-wrap">

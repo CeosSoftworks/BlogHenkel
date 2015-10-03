@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Walker para o menu de categorias na barra lateral (desktop). Serve para
  * modificar como o menu é exibido e exibí-lo da forma que o cliente pediu.
