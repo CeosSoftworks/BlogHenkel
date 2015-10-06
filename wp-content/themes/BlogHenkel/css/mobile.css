@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+  .post-resume-link .post {
+    height: auto;
+  }
+
+  .post-header-img {
+    padding-top: 50%;
+  }
+}

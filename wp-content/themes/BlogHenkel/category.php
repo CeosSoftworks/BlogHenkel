@@ -91,7 +91,7 @@
   </div>
   <div class="col-md-4">
     <div class="inner padding-y-0 padding-x-10px">
-
+      <?php get_template_part('php/category', 'view-all'); ?>
     </div>
   </div>
 </section>
