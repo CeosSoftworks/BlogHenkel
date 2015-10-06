@@ -80,8 +80,6 @@ h1, h2, h3, h4, h5, h6 { color: #606062; }
 .margin-25px { margin: 25px }
 .margin-30px { margin: 30px }
 
-#site-wrap { max-width: 1280px; }
-
 .post {
   position: relative;
 	border: 1px solid #CCC;
