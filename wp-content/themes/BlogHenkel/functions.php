@@ -51,6 +51,7 @@ function enqueueScripts(){
 	wp_enqueue_style('slidesjs-custom', "{$templateDir}/css/slidesjs-custom.css");
 	wp_enqueue_style('frontpage-slider', "{$templateDir}/css/frontpage-slider.css");
 	wp_enqueue_style('sidebar', "{$templateDir}/css/sidebar.css");
+  wp_enqueue_style('single-post', "{$templateDir}/css/single-post.css");
   wp_enqueue_style('mobile', "{$templateDir}/css/mobile.css");
 
 
