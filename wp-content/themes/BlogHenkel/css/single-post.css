@@ -1,6 +1,4 @@
 @charset "UTF-8";
 
-.single .post {
-	border: none;
-	background-color: #F5F5F5;
-}
+.single .post { border: none; background-color: #F5F5F5; }
+.single .post .post-header-img { padding-top: 50% }
