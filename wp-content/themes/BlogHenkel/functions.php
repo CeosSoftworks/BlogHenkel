@@ -97,7 +97,7 @@ function getPostFeaturedImageUrl($postId, $size = 'full') {
  */
 
 function excerptLength() {
-  return 16;
+  return 14;
 }
 
 add_filter('excerpt_length', 'excerptLength');
