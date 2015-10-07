@@ -2,3 +2,10 @@
 
 .single .post { border: none; background-color: #F5F5F5; }
 .single .post .post-header-img { padding-top: 50% }
+.single .post .post-content { font-size: 1.1em }
+
+.crp_related ul { padding: 0; list-style: none }
+.crp_related ul li:after { content: ''; display: block; clear: both; border-bottom: 1px solid #CCC }
+.crp_related ul li a { display: block; float: left; width: 40%; padding: 10px 0; }
+.crp_related ul li a.crp_title { float: right; width: 55% }
+.crp_related ul li a img { width: 100%; height: auto; }
