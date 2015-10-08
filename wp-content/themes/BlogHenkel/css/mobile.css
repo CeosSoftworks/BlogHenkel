@@ -12,4 +12,6 @@
   .post-header-img {
     padding-top: 50%;
   }
+  
+  #cat-view-all .post-header-img { padding: 0 }
 }

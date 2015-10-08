@@ -1,3 +1,11 @@
 @charset "UTF-8";
 
 .category .post { background-color: #F5F5F5; border: none; }
+
+#cat-view-all > .inner { border: 1px solid #CCC; padding: 10px; }
+#cat-view-all > .inner .post { background: none; height: 80px }
+#cat-view-all > .inner .post-cat { display: none }
+#cat-view-all > .inner .post-title { font-size: .9em }
+#cat-view-all > .inner .inner { padding: 10px }
+#cat-view-all a { opacity: .8 }
+#cat-view-all a:hover { opacity: 1 }
