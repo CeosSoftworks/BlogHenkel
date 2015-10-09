@@ -5,7 +5,9 @@
 ?>
 <article id="post-<?php the_ID() ?>" <?php post_class() ?>>
   <header class="post-header">
-    <div class="post-header-img" style="background-image: url(<?= getPostFeaturedImageUrl(get_the_ID()) ?>)"></div>
+    <?php if(!empty(getPostFeaturedImageUrl(get_the_ID()))) : ?>
+      <div class="post-header-img" style="background-image: url(<?= getPostFeaturedImageUrl(get_the_ID()) ?>)"></div>
+    <?php endif ?>
     <div class="inner">
       <h1><?php the_title() ?></h1>
     </div>

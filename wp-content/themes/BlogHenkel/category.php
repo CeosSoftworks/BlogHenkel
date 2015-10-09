@@ -60,7 +60,7 @@
             <h4 class="post-cat"><?= __('Mais recente') ?></h4>
             <a class="post-resume-link" href="<?php the_permalink() ?>">
               <article id="post-<?php the_ID() ?>" <?php post_class('row vertical-middle') ?>>  
-                <div class="post-header-img col-sm-6" title="<?php the_title() ?>" style="background-image: url(<?php getPostFeaturedImageUrl(get_the_ID()) ?>)"></div>
+                <div class="post-header-img col-sm-6" title="<?php the_title() ?>" style="background-image: url(<?= getPostFeaturedImageUrl(get_the_ID()) ?>)"></div>
                 <div class="post-content-wrap col-sm-6">
                   <div class="centralizer">
                     <header class="post-header">
