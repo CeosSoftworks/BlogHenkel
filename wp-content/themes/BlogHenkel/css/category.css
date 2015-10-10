@@ -9,3 +9,40 @@
 #cat-view-all > .inner .inner { padding: 10px }
 #cat-view-all a { opacity: .8 }
 #cat-view-all a:hover { opacity: 1 }
+
+#cat-header-feature .post-cat,
+#cat-header-feature .slidesjs-pagination { display: none }
+#cat-header-feature .hentry { background-color: transparent; height: auto }
+#cat-header-feature .hentry-link {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#cat-header-feature .hentry-link * {
+	position: static;
+}
+#cat-header-feature .hentry-image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: center / cover no-repeat;
+}
+#cat-header-feature .hentry-title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #606062;
+	background-color: rgba(92,92,96, .85);
+}
+#cat-header-feature .hentry-title h4 {
+	color: white;
+	font-size: .9em;
+	padding: 5px 10px;
+	margin: 0;
+	font-weight: bold;
+}

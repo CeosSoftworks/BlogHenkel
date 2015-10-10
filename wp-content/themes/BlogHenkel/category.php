@@ -3,9 +3,7 @@
 <section id="category-top" class="container-fluid">
   <div class="page-top container-fluid padding-10px margin-10px">
     <div class="col-md-8">
-      <div class="">
-        Category
-      </div>
+      <?php get_template_part('php/category', 'header') ?>
     </div>
     <div class="col-md-4">
       <div class="">
