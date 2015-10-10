@@ -6,7 +6,7 @@
 ?>
 <div>
   <a href="#" class="post-resume-link">
-    <div class="post mini vertical-middle">
+    <div class="post hentry mini vertical-middle">
       <div class="post-header-img col-xs-5" title="<?php the_title() ?>" style="background-image: url(<?= get_template_directory_uri() ?>/imgs/clipart-elearning.png)"></div>
       <div class="post-content-wrap col-xs-7">
         <div class="inner">
@@ -22,7 +22,7 @@
   </a>
 
   <a href="#" class="post-resume-link">
-    <div class="post mini vertical-middle">
+    <div class="post hentry mini vertical-middle">
       <div class="post-header-img col-xs-5" title="<?php the_title() ?>" style="background-image: url(<?= get_template_directory_uri() ?>/imgs/clipart-tech-req.png)"></div>
       <div class="post-content-wrap col-xs-7">
         <div class="inner">

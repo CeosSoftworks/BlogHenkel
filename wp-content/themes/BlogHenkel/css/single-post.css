@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-.single .post { border: none; background-color: #F5F5F5; }
-.single .post .post-header-img { padding-top: 50% }
-.single .post .post-content { font-size: 1.1em }
+.single .hentry { border: none; background-color: #F5F5F5; }
+.single .hentry .post-header-img { padding-top: 50% }
+.single .hentry .post-content { font-size: 1.1em }
 
 .crp_related ul { padding: 0; list-style: none }
 .crp_related ul li:after { content: ''; display: block; clear: both; border-bottom: 1px solid #CCC }

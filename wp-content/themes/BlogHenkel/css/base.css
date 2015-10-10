@@ -87,7 +87,13 @@ h6 { font-size: 1.2em }
 .margin-25px { margin: 25px }
 .margin-30px { margin: 30px }
 
-.post {
+.navigation.pagination { text-align: center; display: block }
+.navigation.pagination .screen-reader-text { display: none }
+.navigation.pagination .page-numbers { display: inline-block; min-width: 30px; padding: 5px; font-weight: bold; }
+.navigation.pagination .page-numbers:hover { background-color: #ED3237; color: white }
+.navigation.pagination .page-numbers.current:hover { background-color: #888 }
+
+.hentry {
   position: relative;
 	border: 1px solid #CCC;
 	margin: 0 0 10px 0;
@@ -168,18 +174,18 @@ a:active { color: #003cb3; text-decoration: underline }
 }
 
 .post-resume-link { color: #848688 }
-.post-resume-link .post { height: 220px }
-.post-resume-link .post .post-header-img { opacity: .8 }
+.post-resume-link .hentry { height: 220px }
+.post-resume-link .hentry .post-header-img { opacity: .8 }
 .post-resume-link:hover { color: #606062 }
-.post-resume-link:hover .post .post-header-img { opacity: 1; background-color: #ED3237 }
-.post-resume-link:hover .post .post-title { color: #ED3237 }
+.post-resume-link:hover .hentry .post-header-img { opacity: 1; background-color: #ED3237 }
+.post-resume-link:hover .hentry .post-title { color: #ED3237 }
 .post-resume-link .jumplink-wrap { position: absolute; bottom: 0; right: 0 }
 
-.post.mini { background-color: #F5F5F5; margin: 0; height: 110px }
-.post.mini::not(::last-of-type) { border-bottom: none }
-.post.mini .post-title { font-size: .9em }
-.post.mini .post-header-img { background-color: #D2D3D5; background-size: auto 70% }
-.post.mini .jumplink-wrap { position: absolute; bottom: 0; right: 0 }
+.hentry.mini { background-color: #F5F5F5; margin: 0; height: 110px }
+.hentry.mini::not(::last-of-type) { border-bottom: none }
+.hentry.mini .post-title { font-size: .9em }
+.hentry.mini .post-header-img { background-color: #D2D3D5; background-size: auto 70% }
+.hentry.mini .jumplink-wrap { position: absolute; bottom: 0; right: 0 }
 
 #site-search .search-form { position: relative; margin-top: 20px }
 #site-search .search-form label { margin-bottom: 0 }

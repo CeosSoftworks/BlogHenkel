@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-#frontpage-posts-slider .post {
+#frontpage-posts-slider .hentry {
 	background-color: #F5F5F5;
 	border: none;
   height: 100%;
 }
-#frontpage-posts-slider .post { height: 90%; font-size: 1.4em }
+#frontpage-posts-slider .hentry { height: 90%; font-size: 1.4em }
 #frontpage-posts-slider .post-wrap { height: 100% }
 #frontpage-posts-slider .post-wrap > a { color: #848688;	opacity: .9 }
 #frontpage-posts-slider .post-wrap > a:hover { opacity: 1 }

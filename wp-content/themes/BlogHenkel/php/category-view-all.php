@@ -11,7 +11,7 @@ $cvaQuery = new WP_Query(array(
 
 ?>
 <aside id="cat-view-all">
-  <h6><a href="#"><?= __('Todos os posts deste canal') ?>:</a></h6>
+  <h6><a href="<?= get_category_link(get_query_var('cat')) ?>?view-all"><?= __('Todos os posts deste canal') ?>:</a></h6>
   <div class="inner clearfix">
     <?php if($cvaQuery->have_posts()) : ?>
       <?php while($cvaQuery->have_posts()) : $cvaQuery->the_post() ?>
