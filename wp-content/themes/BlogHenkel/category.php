@@ -54,7 +54,12 @@
       </div>
 
       <div id="cat-most-recent-post">
-        <?php $catQuery = new WP_Query(array('posts_per_page' => 1)) ?>
+        <?php
+        $catQuery = new WP_Query(array(
+          'posts_per_page' => 1,
+          'cat' => get_query_var('cat')
+        ));
+        ?>
         <?php if($catQuery->have_posts()) : $catQuery->the_post() ?>
           <div class="post-wrap">
             <h4 class="post-cat"><?= __('Mais recente') ?></h4>
