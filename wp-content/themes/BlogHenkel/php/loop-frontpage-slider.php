@@ -8,7 +8,7 @@
  * Para o slide foi utilizado o script jquery.slides dentro da pasta js.
  */
 
-$psQuery = new WP_Query(array('posts_per_page' => 3, 'featured' => true));
+$psQuery = new WP_Query(array('posts_per_page' => 8, 'featured' => true));
 ?>
 <div id="frontpage-posts-slider" class="posts-slider latest-posts">
   <div class="post-slider-treadmill-wrap">
