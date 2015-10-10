@@ -29,7 +29,7 @@
     <div class="col-md-8">
       <div class="inner padding-y-0 padding-x-10px">
         <div id="cat-most-read-post">
-          <?php $mostViewed = get_most_viewed_obj() ?>
+          <?php $mostViewed = get_cat_most_viewed_obj(get_query_var('cat')) ?>
           <?php if($mostViewed) : ?>
             <div class="post-wrap">
               <h4 class="post-cat"><?= __('Mais lido') ?></h4>
